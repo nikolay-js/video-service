@@ -1,0 +1,25 @@
+.header-tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+  height: 42px;
+}
+
+.header-tabs__wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.header-tabs__button {
+  color: var(--link-font-color);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-decoration: 0;
+  border-bottom: 0;
+}
+
+.header-tabs__button_active {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}

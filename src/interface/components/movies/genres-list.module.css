@@ -1,0 +1,47 @@
+.genres-list-description {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.genres-list {
+  display: flex;
+  gap: 20px;
+}
+
+.genres-list__item {  
+  width: 280px;
+  height: 208px;
+  opacity: 0.8;
+  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.genres-list__figure {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.genres-list__title {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--font-color-primary);
+}
+
+.genres-list__item-orange {  
+  background-image: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+}
+
+.genres-list__items-scarlet {  
+  background-image: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+}
+
+.genres-list__item-blue {  
+  background-image: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+}
+
+.genres-list__item-grey {  
+  background-image: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+}

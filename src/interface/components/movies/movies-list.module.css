@@ -1,0 +1,31 @@
+.movies-list-description {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 16px;
+  height: 28px;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movies-list__item {
+  width: 280px;
+  height: 434px;
+}
+
+.movies-list__img:hover {
+  background-color: var(--img-bkg-hover);
+  opacity: 0.8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.movies-list__title {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}

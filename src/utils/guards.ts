@@ -1,0 +1,1 @@
+export const isset = <T>(u?: T): u is T => typeof u !== 'undefined';

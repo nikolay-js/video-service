@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 72px;
+  background: var(--bg-primary);
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}

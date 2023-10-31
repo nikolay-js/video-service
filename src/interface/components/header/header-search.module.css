@@ -1,0 +1,39 @@
+.header-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-search__login {
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+  gap: 16px;
+}
+
+.header-search__login-title {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header-search__login-button {
+  background-color: var(--color-primary);
+  color: var(--font-color-primary);
+  border-radius: 4px;
+  padding: 0 32px;
+}
+
+.header-search__wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.header-search__input {
+  width: 320px;
+  border-bottom: 1px solid;
+}
+
+.header-search__button, .header-search__logout-button {
+  background-color: var(--btn-bg-primary);
+  color: var(--color-primary);
+}

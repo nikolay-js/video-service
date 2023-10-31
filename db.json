@@ -1,0 +1,8 @@
+{
+  "movies": [
+    { "id": 1, "picture": "@/interface/assets/img/picture.png", "title": "Мульт в кино. Выпуск №103. Некогда грустить!", "alt": "Котёнок"},
+    { "id": 2, "picture": "@/interface/assets/img/picture1.png", "title": "Новый Бэтмен", "alt": "Бэтмен"},
+    { "id": 3, "picture": "@/interface/assets/img/picture2.png", "title": "Однажды... в Голливуде", "alt": "Надпись Голливуд в горах"},
+    { "id": 4, "picture": "@/interface/assets/img/picture3.png", "title": "Стриптизёрши", "alt": "Голова девушки с голубыми волосами в очках от солнца"}
+  ]
+}
